@@ -19,22 +19,6 @@ Installed-Size: 700
 Name: AppSync Unified
 Provides: appsync, net.angelxwind.appsyncunified
 
-Package: AXJ
-Version: 9.2.3
-Architecture: iphoneos-arm
-Depends: mobilesubstrate, coreutils-bin, zip, unzip
-Conflicts: app.weiphone.als, app.weiphone.igg, app.weiphone.nzt, app.weiphone.lrn, app.weiphone.awz, app.weiphone.hbs
-Filename: ./debs/axj_9.2.3_iphoneos-arm.deb
-Size: 16635288
-MD5sum: 883da1baaabfd7fe351f9dcdba76f58f
-SHA1: 53a69023bc706df12b9ad258bfe0ca1b1b17d7e3
-SHA256: 0242d34f5b54464cdfbc5816992d4bf4ce53d0a77f35f8cc7bfd946ad8cebd5d
-Section: AXJ爱新机
-Author: axj
-Icon: file:///Applications/YOY.app/AppIcon60x60@2x.png
-Name: AXJ爱新机
-Priority: standard
-
 Package: com.opa334.ccsupport
 Version: 1.3.4
 Architecture: iphoneos-arm
@@ -63,14 +47,14 @@ Package: com.cokepokes.appstoreplusplus
 Version: 0.10.1-5
 Architecture: iphoneos-arm
 Maintainer: CokePokes
-Depends: firmware (>= 11.0), mobilesubstrate, com.kidsautopro.kidsautosetting, com.ichitaso.powerselector11, me.autotouch.autotouch.ios8.inputtext, com.ienthach.XoaInfo
+Depends: firmware (>= 11.0), mobilesubstrate,com.kidsautopro.kidsautosetting, com.ichitaso.powerselector11, me.autotouch.autotouch.ios8.inputtext
 Conflicts: com.unlimapps.uaupdatetools
 Replaces:
 Filename: ./debs/com.cokepokes.appstoreplusplus_0.10.1-5_iphoneos-arm.deb
-Size: 4636364
-MD5sum: 1439e142bcdec4582b9ac8bccc112e4a
-SHA1: c252051616bade4de9d2ccc3a1ea7e29882488c8
-SHA256: 23bb2021da9b3fdaf5d947490f8ebff5c947d71a6966bf70e43c025c4916c8c7
+Size: 4624268
+MD5sum: 190658c341ca685b9153de3a2f9d8b61
+SHA1: 75da55c48567676d4d678bb3cbb8c833da06b7b4
+SHA256: 36ca163d56e7c61a3684539d461489bd0de0cad3dfb3ec28660a6331e430039d
 Section: Tweaks
 Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-15.whatever
 Author: CokePokes
@@ -106,23 +90,6 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
 dev: ichitaso
 
-Package: com.ienthach.XoaInfo
-Version: 2.12-8
-Architecture: iphoneos-arm
-Maintainer: Nguyen Quang Vu (ienthach) <ienthach87@gmail.com>
-Depends: firmware (>= 7.0), mobilesubstrate, com.rpetrich.rocketbootstrap, curl, openssh
-Filename: ./debs/com.ienthach.xoainfo_2.12-8_iphoneos-arm.deb
-Size: 5994924
-MD5sum: ee919cf3c952cc9aa626b04881e3f3b3
-SHA1: c20ae1d00ea97032e05718f86a7ad77cec7116d0
-SHA256: 6affee6a6c10002d51693912dc0c81016b435a15823f2cb20355e19f2580183d
-Section: Utilities
-Description: Tool RRS for mmo iOS
-Author: Nguyen Quang Vu (ienthach) <ienthach87@gmail.com>
-Depiction: http://XoaInfo.com/xoainfo/depiction/xoainfo.php
-Homepage: http://XoaInfo.com/
-Name: Xoa Info 2015
-
 Package: com.kidsautopro.kidsautosetting
 Version: 1.6.23
 Architecture: iphoneos-arm
@@ -138,40 +105,6 @@ Section: Tweaks
 Description: Utilities to support KidsAuto Pro, Fixed SSL to Bugs App!!!
 Author: KidsAuto Pro - CườngTrần <https://www.facebook.com/kidsauto91>
 Name: KidsAuto Settings
-
-Package: com.mins.linhvuauto
-Version: 0.0.1-836+debug
-Architecture: iphoneos-arm
-Maintainer: Mins
-Depends: mobilesubstrate,me.autotouch.autotouch.ios8.inputtext,com.ienthach.xoainfo, com.rpetrich.actiwidget, com.rpetrich.rocketbootstrap, jetslammed, ws.hbang.common, zip, tar, unzip, gzip, unrar, p7zip
-Filename: ./debs/com.mins.linhvuauto_0.0.1-836debug_iphoneos-arm.deb
-Size: 967776
-MD5sum: eea7f9d61807745e8752ef8d52aa4b5d
-SHA1: 2887e20faf738e46f86d059bb284950e9b8dc55a
-SHA256: e6e9dcce14f571c4fdae8a260be2dd954d2184a3d2a851172d33534ac04e5a45
-Section: System
-Description: An awesome tool of some sort!!
-Author: Mins
-Installed-Size: 6700
-Name: LinhVu
-Tag: role::hacker
-
-Package: com.mins.linhvuplus
-Version: 1.0-643+debug
-Architecture: iphoneos-arm
-Maintainer: Mins
-Depends: mobilesubstrate, com.rpetrich.rocketbootstrap, jetslammed, ws.hbang.common, zip, tar, unzip, gzip, unrar, p7zip, openssh, curl
-Filename: ./debs/com.mins.linhvuplus_1.0-643+debug_iphoneos-arm.deb
-Size: 4996796
-MD5sum: 81948d08afdb1db8ba037544e59047bd
-SHA1: 9cfa1badd43c7c67f21564d66cf35d9e3867d9cb
-SHA256: 7fc41aac46ba09c920e8ab5e7113df8923cb19b1f9e5691e86e5d34627be07d8
-Section: System
-Description: An awesome tool of some sort!!
-Author: Mins
-Installed-Size: 18088
-Name: LinhVu Plus
-Tag: role::hacker
 
 Package: com.mins.ttweak
 Version: 0.0.1-345+debug
@@ -222,30 +155,6 @@ Author: shiftcmdk
 Depiction: https://shiftcmdk.github.io/repo/depictions/?p=com.shiftcmdk.autoalerts
 Installed-Size: 424
 Name: AutoAlerts
-
-Package: jp.akusio.kernbypass-unofficial
-Version: 0.0.5
-Architecture: iphoneos-arm
-Maintainer: ichitaso
-Depends: mobilesubstrate, preferenceloader
-Conflicts: jp.akusio.kernbypass, com.apple.memecity
-Replaces: jp.akusio.kernbypass-unofficial
-Filename: ./debs/jp.akusio.kernbypass-unofficial_0.0.5.deb
-Size: 144922
-MD5sum: 88664e2a63933c4ba6c58a13936d4299
-SHA1: d2eed190bf07e978ec7e78c4f3ae5c39729a91f2
-SHA256: 8ee495c8fff663df9ddeb562b595bd8438fcc86a3a5e83fcbe0bfbf9a6a14f6b
-Section: System
-Description: kernel level jailbreak detection bypass.
-Author: akusio
-Depiction: https://cydia.ichitaso.com/depiction/kernbypass.html
-Homepage: https://ichitaso.com
-Icon: file:///Library/PreferenceBundles/KernBypassPrefs.bundle/icon@2x.png
-Installed-Size: 920
-Name: KernBypass (Unofficial)
-Pre-Depends: firmware (>= 12.0), firmware (<< 15.0)
-Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14
-dev: akusio, Misty, ichitaso, XsF1re
 
 Package: com.kidsautopro.kidssupport
 Version: 1.11-10-2-1
@@ -342,23 +251,3 @@ Homepage: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/Cydia.app/Sections/tienich.png
 Name: iCleaner Pro VN
 Sileodepiction: http://kenhtao.net/sileo-depiction/net.kenhtao.icleanerpro
-
-Package: net.kenhtao.killx
-Version: 3.0.2
-Architecture: iphoneos-arm
-Maintainer: Kênh Táo
-Depends: mobilesubstrate, preferenceloader, applist, firmware (>= 13.0)
-Conflicts: com.cemck.killx
-Filename: ./debs/net.kenhtao.killx_3.0.2_iphoneos-arm.deb
-Size: 274264
-MD5sum: 53d3eb8aef988331999b9a824acc5a35
-SHA1: eb610930eb4dcbbe7875e953a1f7c1c40afd297a
-SHA256: c70b31ed4139490dace32597b55fa3db4759b1fd35d8598e81a2e666712e066f
-Section: Tweaks
-Description: Vuốt xuống thẻ trong Đa nhiệm để đóng toàn bộ.
-Author: Cem K
-Depiction: https://repo.kenhtao.net/view/6831
-Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
-Installed-Size: 984
-Name: KillX Pro VN
-Sileodepiction: http://repo.kenhtao.net/sileo-depiction/net.kenhtao.killx
